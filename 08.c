@@ -1,15 +1,11 @@
-Which of the following would be valid prototypes for a function that returns
-nothing and has one double parameter?
+/*
+What will be the value of the string str after the following statements have
+executed?
 
-(a) void f(double x);
-(b) void f(double);
-(c) void f(x);
-(d) f(double x);
+strcpy(str, "tire-bouchon");
+strcpy(&str[4], "d-or-wi");
+strcat(str, "red?");
 
 Answer:
-A - Valid
-B - Valid
-C - Invalid, x is missing a datatype for its parameter
-D - Depends, f is missing a datatype for its return value.
-    Valid in C89, but it would default to an int return value.
-    Invalid/Illegal in C99.
+Tired or wired?
+*/
